@@ -1,0 +1,79 @@
+:root {
+  color-scheme: light;
+  font-family: 'Poppins', sans-serif;
+  background: #fff8f4;
+  color: #2e2e2e;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #fff8f4;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgba(197, 140, 109, 0.65);
+  outline-offset: 4px;
+}
+
+section {
+  position: relative;
+}
+
+button.cta-button,
+button.primary-button,
+a.cta-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 999px;
+  padding: 0.95rem 1.8rem;
+  font-weight: 600;
+  background: #c58c6d;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+button.cta-button:hover,
+button.primary-button:hover,
+a.cta-link:hover {
+  transform: translateY(-2px);
+  background: #b47659;
+}
+
+.tooltip-text {
+  font-family: 'Poppins', sans-serif;
+}
+
+.visual-float {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.8;
+}

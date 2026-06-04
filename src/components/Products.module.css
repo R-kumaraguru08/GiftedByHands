@@ -1,0 +1,59 @@
+.section {
+  padding: 4rem 1.5rem 2rem;
+}
+
+.header {
+  max-width: 780px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.sectionTag {
+  display: inline-flex;
+  background: #f5e6da;
+  color: #70412d;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.25rem, 2.6vw, 3rem);
+  color: #131313;
+}
+
+.sectionTag {
+  display: inline-flex;
+  background: #f4ddc8;
+  color: #754a33;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  margin: 1rem auto 0;
+  max-width: 34rem;
+  color: #3b3938;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
